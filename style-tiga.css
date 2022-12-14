@@ -1,0 +1,42 @@
+
+.container-tiga{
+    padding: 15px;
+    height: 500px;
+    display: flex;
+    background-color: aqua;   
+}
+
+.item-tiga {
+    padding: 5px 40px;
+  	font-size: 20px;
+    border: 2px solid red;
+    background-color: yellow;    
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* cross axis */
+.container-align-items-stretch{
+    align-items: stretch;
+}
+
+.container-align-items-flex-start{
+    align-items: flex-start;
+}
+
+.container-align-items-flex-end{
+    align-items: flex-end;
+}
+
+.container-align-items-center{
+    align-items: center;
+}
+
+.container-align-items-baseline{
+    align-items: baseline;
+}
