@@ -34,3 +34,15 @@
 .container-item-coloumn-reverse{
     flex-direction: column-reverse;
 }
+
+.container-flex-wrap-no-wrap{
+    flex-wrap: nowrap;
+}
+
+.container-flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.container-flex-wrap-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
