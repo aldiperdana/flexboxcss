@@ -1,0 +1,36 @@
+.container {
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.item {
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+    background-color: yellow;    
+}
+
+.container-item-row{
+    flex-direction: row;
+}
+
+.container-item-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.container-item-coloumn{
+    flex-direction: column;
+}
+
+.container-item-coloumn-reverse{
+    flex-direction: column-reverse;
+}
