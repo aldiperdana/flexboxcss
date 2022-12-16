@@ -1,0 +1,50 @@
+.container-dua{
+    height: auto;
+    width: 720px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.text-center > p,h2,h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-dua{
+    box-sizing: border-box;
+    height: 160px;
+    width: 120px;
+    border: 1px solid white;
+    background-color: gray;
+}
+
+.satu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.dua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 2;
+}
+
+.tiga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 3;
+}
+

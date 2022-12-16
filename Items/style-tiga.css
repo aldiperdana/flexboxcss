@@ -1,0 +1,57 @@
+.container-tiga{
+    height: auto;
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.text-center > p,h2,h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-tiga{
+    box-sizing: border-box;
+    height: 160px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: gray;
+}
+
+.nol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.dua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 2;
+}
+
+.tiga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 3;
+}
+
+.empat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 4;
+}
